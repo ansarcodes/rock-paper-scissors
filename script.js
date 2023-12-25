@@ -80,29 +80,3 @@ btnScissors.addEventListener("click", () => {
 });
 
 
-
-
-
-
-
-// function game() {
-//     let playerScore = 0;
-//     let computerScore = 0;
-//     for (let i = 0; i <= 5; i++) {
-//         let playerSelection = prompt("Choose (Rock, Paper, Scissors):");
-//         let computerSelection = getComputerChoice();
-//         let result = (playRound(playerSelection, computerSelection));
-//         console.log(result)
-//         if (result.charAt(4) === "w") {
-//             playerScore++;
-//             console.log(`Score: You (${playerScore}-${computerScore}) Computer`);
-//         } else if (result.charAt(4) === "l") {
-//             computerScore++;
-//             console.log(`Score: You (${playerScore}-${computerScore}) Computer`);
-//         } else {
-//             console.log(`Score: You (${playerScore}-${computerScore}) Computer`);
-//         }
-//     }
-
-// }
-
